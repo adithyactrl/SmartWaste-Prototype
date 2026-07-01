@@ -48,6 +48,9 @@ An automatic dustbin system built using Arduino, an ultrasonic sensor, and a ser
 | Red   | D1          |
 | Green | D2          |
 
+## 🔌 Wiring Diagram
+
+![Circuit Diagram Using TinkerCad](images/Dustbin.png)
 
 
 
