@@ -48,6 +48,20 @@ An automatic dustbin system built using Arduino, an ultrasonic sensor, and a ser
 | Red   | D1          |
 | Green | D2          |
 
+## 📚 What I Learned
+
+* How ultrasonic sensors (HC-SR04) work and measure distance using sound waves
+* How to read sensor data using Arduino
+* How to control a servo motor with the Servo library
+* Using LEDs as status indicators
+
+* Sensor input → Processing → Output action
+* Writing Arduino code using conditions and logic
+* Basics of building and testing a real-world automation project
+
+
+
+
 ## 🔌 Wiring Diagram
 
 ![Circuit Diagram Using TinkerCad](images/Dustbin.png)
