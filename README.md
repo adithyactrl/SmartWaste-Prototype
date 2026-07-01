@@ -1,2 +1,58 @@
-# SmartWaste-Prototype
-An Arduino-based automatic dustbin system using the HC-SR04 ultrasonic sensor and SG90 servo motor to detect human motion to open the lid , with build in led indication
+# 🚮 Arduino Smart Dustbin
+
+An automatic dustbin system built using Arduino, an ultrasonic sensor, and a servo motor. The lid detects a nearby object (like a hand) and opens automatically for a few seconds before closing again.
+
+## ✨ Features
+
+* Automatic lid opening using distance detection
+* Ultrasonic sensing with HC-SR04
+* Servo-controlled lid mechanism
+* Green LED indicator when the lid is open
+* Red LED indicator when idle
+* Simple Arduino-based embedded system
+
+## 🛠️ Components Used
+
+* Arduino Uno
+* HC-SR04 Ultrasonic Sensor
+* Servo Motor (SG90 or similar)
+* Red LED
+* Green LED
+* 220Ω resistors
+* Breadboard
+* Jumper wires
+
+## 🔌 Circuit Connections
+
+### HC-SR04
+
+| Sensor Pin | Arduino Pin |
+| ---------- | ----------- |
+| VCC        | 5V          |
+| GND        | GND         |
+| TRIG       | D7          |
+| ECHO       | D6          |
+
+### Servo Motor
+
+| Servo Wire | Arduino Pin |
+| ---------- | ----------- |
+| VCC        | 5V          |
+| GND        | GND         |
+| Signal     | D9          |
+
+### LEDs
+
+| LED   | Arduino Pin |
+| ----- | ----------- |
+| Red   | D1          |
+| Green | D2          |
+
+
+
+
+
+
+
+
+
